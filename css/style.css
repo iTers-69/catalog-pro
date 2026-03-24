@@ -1,0 +1,30 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  background: rgba(17, 24, 39, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(59,130,246,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59,130,246,0.06) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.input-error {
+  border-color: rgba(239, 68, 68, 0.8) !important;
+}
+
+.form-message {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #93c5fd;
+}
